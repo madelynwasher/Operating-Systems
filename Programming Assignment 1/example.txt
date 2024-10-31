@@ -1,0 +1,49 @@
+[mwasher@wasp OSproject1]$ gcc producer.c -pthread -lrt -o producer
+[mwasher@wasp OSproject1]$ gcc consumer.c -pthread -lrt -o consumer
+[mwasher@wasp OSproject1]$ ./producer & ./consumer &
+[5] 2073687
+[6] 2073688
+[mwasher@wasp OSproject1]$ Produced: 1
+Produced: 2
+Consumed: 1
+Consumed: 2
+Produced: 3
+Produced: 4
+Consumed: 3
+Consumed: 4
+Produced: 5
+Produced: 6
+Consumed: 5
+Consumed: 6
+Produced: 7
+Produced: 8
+Consumed: 7
+Consumed: 8
+Produced: 9
+Produced: 10
+Consumed: 9
+Consumed: 10
+Produced: 11
+Produced: 12
+Consumed: 11
+Consumed: 12
+Produced: 13
+Produced: 14
+Consumed: 13
+Consumed: 14
+Produced: 15
+Produced: 16
+Consumed: 15
+Consumed: 16
+Produced: 17
+Produced: 18
+Consumed: 17
+Consumed: 18
+Produced: 19
+Produced: 20
+Consumed: 19
+Consumed: 20
+^C
+[5]-  Done                    ./producer
+[6]+  Done                    ./consumer
+[mwasher@wasp OSproject1]$
