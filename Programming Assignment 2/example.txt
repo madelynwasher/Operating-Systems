@@ -1,4 +1,4 @@
-[mwasher@wasp OSassignment2]$ g++ bankersAlgorithm.cpp -o banker
-[mwasher@wasp OSassignment2]$ ./banker
+[mwasher@wasp OSassignment2]$ g++ bankersAlgorithm.cpp -o bankersAlgorithm
+[mwasher@wasp OSassignment2]$ ./bankersAlgorithm
 The system is in a safe state.
 Safe sequence is: P1 -> P3 -> P0 -> P2 -> P4
