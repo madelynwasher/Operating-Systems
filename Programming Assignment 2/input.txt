@@ -1,0 +1,6 @@
+Available: 3 3 2
+P0 Alloc: 0 1 0 Max: 7 5 3
+P1 Alloc: 2 0 0 Max: 3 2 2
+P2 Alloc: 3 0 2 Max: 9 0 2
+P3 Alloc: 2 1 1 Max: 2 2 2
+P4 Alloc: 0 0 2 Max: 4 3 3
